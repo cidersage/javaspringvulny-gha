@@ -1,5 +1,5 @@
 app:
-  # Update your applicationId
+  # Update your applicationId - use GitHub secret
   applicationId: ${APP_ID}
   env: ${APP_ENV:GitHub Actions}
   host: ${APP_HOST:https://localhost:9000}
