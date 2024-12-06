@@ -27,7 +27,7 @@ jobs:
       # configuration file stackhawk-actions.yml. It also stores information about the pull request event including the
       # commit SHA and branch name and stores them to the variable names COMMIT_SHA and BRANCH_NAME.
       - name: HawkScan
-        uses: stackhawk/hawkscan-action@v2.0.0
+        uses: stackhawk/hawkscan-action@v2.2.0
         with:
           apiKey: ${{ secrets.HAWK_API_KEY }}
           configurationFiles: stackhawk-actions-auth0-password.yml
